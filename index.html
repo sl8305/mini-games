@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Games</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
     <div class='contentWrapper'>
@@ -21,12 +21,31 @@
         </header>
 
         <div class="content">
-            <h1>Welcome to Mini Games</h1>
+            <div class="intro">
+                <h1>Welcome to Mini Games</h1>
+                <p> Choose a game below to play!</p>
+            </div>
+
+            <div class="card-wrapper">
+                <div class="card">Tic Tac Toe</div>
+                <div class="card">Rock Paper Scissor</div>
+                <div class="card">Bejeweled</div>
+            </div>
+
+            <div id="game"></div>
         </div>
-    
     </div>
+
+
+    <!-- TODO add links to the images -->
     <footer>
-        <p>hello</p>
+        <div class="footerIcons"><img class='icon' src="./assets/images/logo-32x32.png" alt="portfolio"></div>
+        <div class="footerText">
+            <p>This page was brought to you by Shad Lee</p>
+            <!-- copyright symbol -->
+            <p>&#169; 2021</p>
+        </div>
+        <div class="footerIcons"><img class='icon' src="./assets/images/linkedIn.png" alt="linkedIn"></div>
     </footer>
     
 </body>

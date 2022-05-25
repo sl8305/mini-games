@@ -22,13 +22,17 @@ nav{
     width: 10vw;
 }
 
-.logo:hover {
+.logo a{
+    color:#fef9f3;
+    text-decoration: none;
+}
+
+.logo a:hover {
     cursor: pointer;
     color:blueviolet;
 }
 
 .linkList {
-    
     display: flex;
 }
 
